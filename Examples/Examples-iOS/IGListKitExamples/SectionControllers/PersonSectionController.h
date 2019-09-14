@@ -12,7 +12,7 @@
  WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
  */
 
-#import <IGListKit/IGListKit.h>
+#import "IGListKit.h"
 
 @interface PersonSectionController : IGListSectionController
 

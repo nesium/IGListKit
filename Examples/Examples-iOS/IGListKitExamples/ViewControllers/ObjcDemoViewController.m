@@ -14,7 +14,7 @@
 
 #import "ObjcDemoViewController.h"
 
-#import <IGListKit/IGListKit.h>
+#import "IGListKit.h"
 
 #import "Post.h"
 #import "PostSectionController.h"

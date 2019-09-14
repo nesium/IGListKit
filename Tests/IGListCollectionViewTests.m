@@ -7,7 +7,7 @@
 
 #import <XCTest/XCTest.h>
 
-#import <IGListKit/IGListCollectionView.h>
+#import "IGListCollectionView.h"
 
 #import "IGLayoutTestItem.h"
 #import "IGLayoutTestSection.h"

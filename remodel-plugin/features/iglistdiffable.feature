@@ -17,7 +17,7 @@ Feature: Outputting Value Objects implementing IGListDiffable
 
       #import <Foundation/Foundation.h>
       #import <CoreGraphics/CGGeometry.h>
-      #import <IGListKit/IGListDiffable.h>
+      #import "IGListDiffable.h"
 
       @interface IGListDiffableTest : NSObject <IGListDiffable, NSCopying>
 
@@ -61,7 +61,7 @@ Feature: Outputting Value Objects implementing IGListDiffable
 
       #import <Foundation/Foundation.h>
       #import <CoreGraphics/CGGeometry.h>
-      #import <IGListKit/IGListDiffable.h>
+      #import "IGListDiffable.h"
 
       @interface IGListDiffableTest2 : NSObject <IGListDiffable, NSCopying>
 
@@ -125,7 +125,7 @@ Feature: Outputting Value Objects implementing IGListDiffable
       """
       #import <Foundation/Foundation.h>
       #import <CoreGraphics/CGGeometry.h>
-      #import <IGListKit/IGListDiffable.h>
+      #import "IGListDiffable.h"
 
       @interface IGListDiffableTest4 : NSObject <IGListDiffable, NSCopying>
 
